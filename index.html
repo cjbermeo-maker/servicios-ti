@@ -1,0 +1,324 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Servicios de tecnología, soporte técnico, computadores, redes y desarrollo web en Isnos, Huila.">
+  <title>Servicios TI | Soluciones Tecnológicas</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background: #0b1120;
+      color: #f1f5f9;
+      line-height: 1.6;
+    }
+
+    header {
+      padding: 20px 7%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 15px;
+      flex-wrap: wrap;
+      border-bottom: 1px solid #263247;
+    }
+
+    .logo {
+      font-size: 23px;
+      font-weight: bold;
+    }
+
+    .logo span {
+      color: #38bdf8;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin-left: 15px;
+      font-size: 14px;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 85px 7%;
+      background: radial-gradient(ellipse at top, #17304d, #0b1120 75%);
+    }
+
+    .etiqueta {
+      color: #38bdf8;
+      letter-spacing: 2px;
+      font-size: 12px;
+      font-weight: bold;
+    }
+
+    h1 {
+      font-size: clamp(34px, 6vw, 58px);
+      line-height: 1.15;
+      margin: 20px 0;
+    }
+
+    h1 span {
+      color: #38bdf8;
+    }
+
+    .hero p {
+      color: #b5c2d4;
+      max-width: 650px;
+      margin: 0 auto 25px;
+    }
+
+    .boton {
+      display: inline-block;
+      padding: 13px 21px;
+      margin: 5px;
+      background: #38bdf8;
+      color: #07111e;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: bold;
+    }
+
+    .boton-secundario {
+      background: transparent;
+      border: 1px solid #60718a;
+      color: white;
+    }
+
+    section {
+      padding: 65px 7%;
+    }
+
+    .titulo {
+      text-align: center;
+      margin-bottom: 35px;
+    }
+
+    .titulo p {
+      color: #aab8cc;
+      margin-top: 8px;
+    }
+
+    .servicios {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 18px;
+    }
+
+    .tarjeta {
+      background: #151f32;
+      border: 1px solid #26364d;
+      padding: 25px;
+      border-radius: 14px;
+    }
+
+    .icono {
+      font-size: 32px;
+      margin-bottom: 10px;
+    }
+
+    .tarjeta h3 {
+      margin-bottom: 10px;
+    }
+
+    .tarjeta p {
+      color: #b5c2d4;
+      font-size: 14px;
+    }
+
+    #sobre {
+      background: #101a2b;
+    }
+
+    .sobre-contenido {
+      max-width: 750px;
+      margin: auto;
+      text-align: center;
+    }
+
+    .sobre-contenido p {
+      color: #b5c2d4;
+      margin-top: 15px;
+    }
+
+    .contacto {
+      text-align: center;
+    }
+
+    footer {
+      padding: 25px 7%;
+      text-align: center;
+      border-top: 1px solid #263247;
+      color: #aab8cc;
+      font-size: 13px;
+    }
+
+    @media (max-width: 600px) {
+      header {
+        justify-content: center;
+      }
+
+      nav a {
+        margin: 0 6px;
+      }
+
+      .hero {
+        padding: 60px 6%;
+      }
+
+      section {
+        padding: 50px 6%;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <div class="logo">SERVICIOS<span>TI</span></div>
+
+    <nav>
+      <a href="#servicios">Servicios</a>
+      <a href="#sobre">Sobre mí</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <section class="hero">
+      <div class="etiqueta">TECNOLOGÍA Y SOLUCIONES DIGITALES</div>
+
+      <h1>
+        Soluciones tecnológicas
+        <br>
+        <span>para ti y tu negocio</span>
+      </h1>
+
+      <p>
+        Soporte técnico, mantenimiento de computadores,
+        instalación de redes y desarrollo web.
+        Atención en Isnos, Huila.
+      </p>
+
+      <a class="boton" href="#servicios">Ver mis servicios</a>
+      <a class="boton boton-secundario" href="#contacto">Contáctame</a>
+    </section>
+
+    <section id="servicios">
+      <div class="titulo">
+        <h2>Mis servicios</h2>
+        <p>Soluciones para tus necesidades tecnológicas.</p>
+      </div>
+
+      <div class="servicios">
+
+        <article class="tarjeta">
+          <div class="icono">💻</div>
+          <h3>Venta de computadores</h3>
+          <p>Orientación para elegir equipos y soluciones informáticas.</p>
+        </article>
+
+        <article class="tarjeta">
+          <div class="icono">🛠️</div>
+          <h3>Mantenimiento preventivo y correctivo</h3>
+          <p>Revisión, diagnóstico y mantenimiento de computadores.</p>
+        </article>
+
+        <article class="tarjeta">
+          <div class="icono">⚙️</div>
+          <h3>Formateo y actualización</h3>
+          <p>Instalación de sistemas operativos, controladores y actualizaciones.</p>
+        </article>
+
+        <article class="tarjeta">
+          <div class="icono">📦</div>
+          <h3>Programas y ofimática</h3>
+          <p>Instalación y configuración de aplicaciones con licencias legítimas.</p>
+        </article>
+
+        <article class="tarjeta">
+          <div class="icono">🛡️</div>
+          <h3>Antivirus y seguridad</h3>
+          <p>Configuración de antivirus y recomendaciones básicas de seguridad informática.</p>
+        </article>
+
+        <article class="tarjeta">
+          <div class="icono">🌐</div>
+          <h3>Redes e internet</h3>
+          <p>Instalación física de redes y solución de problemas de conectividad.</p>
+        </article>
+
+        <article class="tarjeta">
+          <div class="icono">🖥️</div>
+          <h3>Desarrollo web</h3>
+          <p>Creación y actualización de páginas web para personas y negocios.</p>
+        </article>
+
+        <article class="tarjeta">
+          <div class="icono">📲</div>
+          <h3>Plataformas digitales</h3>
+          <p>Orientación y acceso a servicios digitales autorizados.</p>
+        </article>
+
+      </div>
+    </section>
+
+    <section id="sobre">
+      <div class="sobre-contenido">
+        <h2>Sobre mí</h2>
+
+        <p>
+          Soy Ingeniero de Sistemas, con conocimientos en soporte
+          técnico, mantenimiento de computadores, redes y desarrollo web.
+          Me caracterizo por la responsabilidad, el compromiso
+          y la disposición para aprender y ofrecer soluciones.
+        </p>
+      </div>
+    </section>
+
+    <section id="contacto" class="contacto">
+      <div class="titulo">
+        <h2>¿Necesitas un servicio tecnológico?</h2>
+
+        <p>
+          Escríbeme para consultar disponibilidad
+          y solicitar una cotización.
+        </p>
+      </div>
+
+      <!-- CAMBIA EL NUMERO POR TU WHATSAPP -->
+      <a
+        class="boton"
+        href="https://wa.me/573108085855?text=Hola%2C%20quiero%20informaci%C3%B3n%20sobre%20tus%20servicios"
+        target="_blank"
+        rel="noopener">
+        Consultar por WhatsApp
+      </a>
+
+      <p style="margin-top:20px;color:#aab8cc">
+        Isnos, Huila · Atención bajo solicitud
+      </p>
+    </section>
+
+  </main>
+
+  <footer>
+    © 2026 Servicios TI · Soluciones tecnológicas
+  </footer>
+
+</body>
+</html>
